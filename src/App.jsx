@@ -2,8 +2,7 @@ import React, {useState} from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import {getData} from "../../rnative-test/api/api.js";
-import ArrayElement from "./components/ArrayElement.jsx";
+import {getData} from "./api/api.js";
 import {QueryClient, QueryClientProvider} from "react-query";
 import loadingAnim from './assets/Rolling@1x-1.0s-200px-200px.svg';
 
